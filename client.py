@@ -11,7 +11,7 @@ sport = 8080
 #connecting to the server
 print('this is your ip address: ', ip)
 server_host = input('Enter friend\'s IP address:')
-name = input("Enter Friend\s name: ")
+name = input("Enter Your name: ")
 
 socket_server.connect((server_host, sport))
 
